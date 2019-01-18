@@ -18,4 +18,7 @@ The project is written in Kotlin. Following MVVM architecture and using Android 
  * **Room** - https://developer.android.com/topic/libraries/architecture/room
  * **ZXing Barcode Scanner** - https://github.com/journeyapps/zxing-android-embedded
 
-##Installable APK
+
+## Installable APK
+
+B Wallet APK: [Download](https://github.com/rezalotfi01/Bitcoin-Wallet/blob/master/oapk/app-release.apk)
