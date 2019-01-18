@@ -1,11 +1,11 @@
-# B Wallet - Bitcoin Wallet Check ! 
+# B Wallet - MVVM Bitcoin Wallet Check !
 
 B Wallet allows you to check balance an history of any bitcoin wallet. Just scan bitcoin address QR code to see all important information like bitcoin balance, fiat balance by current conversation rate, transactions history, etc. All scanned wallets are safely stored on your phone for offline access. You can sort wallets in the favorites list.
 
 ![Screenshots](https://github.com/rezalotfi01/bitcoin-wallet/raw/master/screenshots/screenshot.png)
 
 ## Codebase
-The project is written in Kotlin. Following MVVM architecture and using Android Jetpack libraries like ViewModel, Room, LiveData etc. Project is structured to modules divided by features. Dependencies between modules are solved by dependency injections with Dagger 2.   
+The project is written in Kotlin. Following **MVVM architecture** and using Android Jetpack libraries like ViewModel, Room, LiveData etc. Project is structured to modules divided by features. Dependencies between modules are solved by dependency injections with Dagger 2.   
 
 ## Libraries
  * **Android Architecture Components** - https://developer.android.com/topic/libraries/architecture/
