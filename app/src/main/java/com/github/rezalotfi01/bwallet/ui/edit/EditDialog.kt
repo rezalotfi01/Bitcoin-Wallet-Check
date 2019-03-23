@@ -21,8 +21,8 @@ class EditDialog: DaggerAppCompatDialogFragment() {
 
     companion object {
         val TAG = EditDialog::class.java.simpleName
-        private val BUNDLE_ADDRESS = "address"
-        private val BUNDLE_NICKNAME = "nickname"
+        private const val BUNDLE_ADDRESS = "address"
+        private const val BUNDLE_NICKNAME = "nickname"
 
         fun newInstance(address:String,nickname:String): EditDialog {
 
@@ -51,15 +51,15 @@ class EditDialog: DaggerAppCompatDialogFragment() {
         builder.setTitle(getString(R.string.edit))
         builder.setView(_view)
                 // Add action buttons
-                .setNegativeButton(getString(R.string.close), { _, _ ->
+                .setNegativeButton(getString(R.string.close)) { _, _ ->
 
-                })
-                .setPositiveButton(getString(R.string.save), { _, _ ->
+                }
+                .setPositiveButton(getString(R.string.save)) { _, _ ->
                     address?.let {
                         val newNickname = _view?.editTextWalletNickname?.text.toString()
                         editDialogViewModel.setNickname(it, newNickname)
                     }
-                })
+                }
 
         address = arguments?.getString(BUNDLE_ADDRESS)
         nickname = arguments?.getString(BUNDLE_NICKNAME)

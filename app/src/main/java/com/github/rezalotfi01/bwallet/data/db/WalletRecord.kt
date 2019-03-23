@@ -19,6 +19,7 @@ data class WalletRecord(
         val totalSent:Long,
         val finalBalance:Long)
 
+@Suppress("ArrayInDataClass")
 data class WalletRecordView(
         val address:String,
         val nickname: String,
@@ -34,5 +35,6 @@ data class WalletRecordView(
         val finalBalance:Long,
 
         val transactions:Array<OneTransaction>,
-        val fromCache: Boolean)
+        val fromCache: Boolean
+)
 
