@@ -11,7 +11,7 @@ class HistoryFragment: MainFragment() {
     override fun getEmptyText(): CharSequence = getText(R.string.history_is_empty)
 
     companion object {
-        val TAG = HistoryFragment::class.java.simpleName
+        val TAG: String = HistoryFragment::class.java.simpleName
 
         fun newInstance(): HistoryFragment {
             return HistoryFragment()
