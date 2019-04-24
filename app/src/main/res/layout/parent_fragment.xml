@@ -1,4 +1,4 @@
-<android.support.design.widget.CoordinatorLayout
+<androidx.coordinatorlayout.widget.CoordinatorLayout
         android:id="@+id/main_content"
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -9,7 +9,7 @@
         android:fitsSystemWindows="true"
         tools:context="com.github.rezalotfi01.bwallet.ui.main.ParentFragment">
 
-    <android.support.constraint.ConstraintLayout
+    <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/main_layout"
             xmlns:android="http://schemas.android.com/apk/res/android"
             xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -17,7 +17,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-        <android.support.v7.widget.Toolbar
+        <androidx.appcompat.widget.Toolbar
                 android:id="@+id/toolbar"
                 android:fitsSystemWindows="true"
                 android:layout_width="match_parent"
@@ -29,7 +29,7 @@
                 android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
                 app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
 
-        <android.support.design.widget.TabLayout
+        <com.google.android.material.tabs.TabLayout
                 android:id="@+id/tabLayout"
                 android:textAlignment="viewStart"
                 android:layout_width="match_parent"
@@ -43,7 +43,7 @@
                 app:tabMode="fixed"
                 android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
 
-        <android.support.v4.view.ViewPager
+        <androidx.viewpager.widget.ViewPager
                 android:id="@+id/viewPager"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
@@ -51,7 +51,7 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/tabLayout"/>
 
-    </android.support.constraint.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
     <View
             android:id="@+id/fabBackdrop"
@@ -63,7 +63,7 @@
             android:background="#60000000"
     />
 
-    <android.support.design.widget.FloatingActionButton
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:layout_marginBottom="160dp"
             app:srcCompat="@drawable/ic_edit_white_24dp"
             app:fabSize="normal"
@@ -78,7 +78,7 @@
             android:layout_gravity="bottom|end" />
 
 
-    <android.support.design.widget.FloatingActionButton
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:layout_marginBottom="90dp"
             android:src="@drawable/qr_128_light"
             app:fabSize="normal"
@@ -92,7 +92,7 @@
             app:backgroundTint="@color/colorPrimary"
             android:layout_gravity="bottom|end" />
 
-    <android.support.design.widget.FloatingActionButton
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
             app:srcCompat="@drawable/ic_add_white_24dp"
             app:fabSize="normal"
             android:id="@+id/floatingButtonAdd"
@@ -102,4 +102,4 @@
             app:elevation="6dp"
             app:backgroundTint="@color/colorAccent"
             android:layout_gravity="bottom|end" />
-</android.support.design.widget.CoordinatorLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

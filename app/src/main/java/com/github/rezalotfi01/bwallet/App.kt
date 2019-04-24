@@ -4,7 +4,7 @@ import android.content.Context
 
 import dagger.android.AndroidInjector
 import dagger.android.DaggerApplication
-import android.support.multidex.MultiDex
+import androidx.multidex.MultiDex
 import com.github.rezalotfi01.bwallet.di.DaggerAppComponent
 
 class App: DaggerApplication() {
@@ -19,4 +19,5 @@ class App: DaggerApplication() {
         builder.inject(this)
         return builder
     }
+
 }

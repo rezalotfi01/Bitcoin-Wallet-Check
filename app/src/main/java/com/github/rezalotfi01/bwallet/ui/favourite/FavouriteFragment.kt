@@ -1,7 +1,7 @@
 package com.github.rezalotfi01.bwallet.ui.favourite
 
-import android.arch.lifecycle.Observer
-import android.arch.lifecycle.ViewModel
+import androidx.lifecycle.Observer
+import androidx.lifecycle.ViewModel
 import android.os.Bundle
 import com.github.rezalotfi01.bwallet.R
 import com.github.rezalotfi01.bwallet.ui.main.MainFragment

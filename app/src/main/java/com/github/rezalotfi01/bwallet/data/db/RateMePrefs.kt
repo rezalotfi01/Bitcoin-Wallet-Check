@@ -45,4 +45,5 @@ class RateMePrefs @Inject constructor(private val sharedPreferences: SharedPrefe
         editor.apply()
     }
 
+
 }

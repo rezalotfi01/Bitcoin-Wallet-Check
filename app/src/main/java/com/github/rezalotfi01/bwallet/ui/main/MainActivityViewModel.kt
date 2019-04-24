@@ -1,6 +1,6 @@
 package com.github.rezalotfi01.bwallet.ui.main
 
-import android.arch.lifecycle.ViewModel
+import androidx.lifecycle.ViewModel
 import android.os.Handler
 import com.github.rezalotfi01.bwallet.data.db.RateMePrefs
 import javax.inject.Inject

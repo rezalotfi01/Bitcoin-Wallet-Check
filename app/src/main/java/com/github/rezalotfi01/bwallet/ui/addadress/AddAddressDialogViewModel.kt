@@ -1,7 +1,7 @@
 package com.github.rezalotfi01.bwallet.ui.addadress
 
 import android.app.Application
-import android.arch.lifecycle.AndroidViewModel
+import androidx.lifecycle.AndroidViewModel
 import android.content.ClipDescription
 import android.content.ClipboardManager
 import android.content.Context

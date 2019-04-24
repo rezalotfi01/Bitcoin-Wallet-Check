@@ -1,10 +1,10 @@
 package com.github.rezalotfi01.bwallet.ui.qrdialog
 
 import android.app.Dialog
-import android.arch.lifecycle.Observer
-import android.arch.lifecycle.ViewModelProviders
+import androidx.lifecycle.Observer
+import androidx.lifecycle.ViewModelProviders
 import android.os.Bundle
-import android.support.v7.app.AlertDialog
+import androidx.appcompat.app.AlertDialog
 import com.github.rezalotfi01.bwallet.R
 import com.github.rezalotfi01.bwallet.di.ViewModelFactory
 import dagger.android.support.DaggerAppCompatDialogFragment

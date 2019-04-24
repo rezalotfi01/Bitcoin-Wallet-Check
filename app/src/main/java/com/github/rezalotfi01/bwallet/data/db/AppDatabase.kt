@@ -1,7 +1,7 @@
 package com.github.rezalotfi01.bwallet.data.db
 
-import android.arch.persistence.room.RoomDatabase
-import android.arch.persistence.room.Database
+import androidx.room.RoomDatabase
+import androidx.room.Database
 
 
 @Database(entities = [WalletRecord::class], version = 1)
