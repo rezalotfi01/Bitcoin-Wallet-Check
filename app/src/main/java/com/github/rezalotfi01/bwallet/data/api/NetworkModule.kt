@@ -4,7 +4,7 @@ import android.content.Context
 import android.util.Log
 import com.jakewharton.retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory
 import com.github.rezalotfi01.bwallet.BuildConfig
-import com.squareup.moshi.KotlinJsonAdapterFactory
+import com.squareup.moshi.kotlin.reflect.KotlinJsonAdapterFactory
 import com.squareup.moshi.Moshi
 import dagger.Module
 import dagger.Provides
@@ -147,7 +147,7 @@ class NetworkModule {
 
     @Provides
     @Singleton
-    fun provideMoshi() = Moshi.Builder()
+    fun provideMoshi(): Moshi = Moshi.Builder()
             .add(KotlinJsonAdapterFactory())
             .build()
 }
