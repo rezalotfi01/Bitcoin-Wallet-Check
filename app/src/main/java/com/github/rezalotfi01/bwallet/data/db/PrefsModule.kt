@@ -15,4 +15,6 @@ class PrefsModule {
     fun provideSharedPrefs(application: Application): SharedPreferences {
         return PreferenceManager.getDefaultSharedPreferences(application)
     }
+
+
 }

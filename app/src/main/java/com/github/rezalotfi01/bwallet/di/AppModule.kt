@@ -10,7 +10,6 @@ import dagger.Module
 
 @Module(includes = [NetworkModule::class, DatabaseModule::class, PrefsModule::class, BarcodeModule::class])
 abstract class AppModule {
-
     @Binds
     abstract fun provideContext(application: Application): Context
 }

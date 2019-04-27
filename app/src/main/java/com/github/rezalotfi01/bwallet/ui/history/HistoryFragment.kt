@@ -1,6 +1,6 @@
 package com.github.rezalotfi01.bwallet.ui.history
 
-import android.arch.lifecycle.ViewModel
+import androidx.lifecycle.ViewModel
 import com.github.rezalotfi01.bwallet.R
 import com.github.rezalotfi01.bwallet.ui.main.MainFragment
 

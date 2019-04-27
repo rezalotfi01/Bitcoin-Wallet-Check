@@ -1,7 +1,7 @@
 package com.github.rezalotfi01.bwallet.utils
 
 import android.content.Context
-import android.support.annotation.LayoutRes
+import androidx.annotation.LayoutRes
 import android.util.DisplayMetrics
 import android.view.LayoutInflater
 import android.view.View

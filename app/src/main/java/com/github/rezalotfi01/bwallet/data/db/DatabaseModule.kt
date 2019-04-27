@@ -1,7 +1,7 @@
 package com.github.rezalotfi01.bwallet.data.db
 
 import android.app.Application
-import android.arch.persistence.room.Room
+import androidx.room.Room
 import dagger.Module
 import dagger.Provides
 import javax.inject.Singleton

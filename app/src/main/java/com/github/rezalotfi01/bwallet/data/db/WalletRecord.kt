@@ -1,7 +1,7 @@
 package com.github.rezalotfi01.bwallet.data.db
 
-import android.arch.persistence.room.Entity
-import android.arch.persistence.room.PrimaryKey
+import androidx.room.Entity
+import androidx.room.PrimaryKey
 import com.github.rezalotfi01.bwallet.data.model.OneTransaction
 
 @Entity

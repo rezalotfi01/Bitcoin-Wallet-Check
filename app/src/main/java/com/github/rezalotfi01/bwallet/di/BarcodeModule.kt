@@ -14,4 +14,5 @@ class BarcodeModule {
         return BarcodeEncoder()
     }
 
+
 }

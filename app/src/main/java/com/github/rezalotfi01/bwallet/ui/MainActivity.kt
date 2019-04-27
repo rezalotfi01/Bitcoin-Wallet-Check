@@ -1,10 +1,10 @@
 package com.github.rezalotfi01.bwallet.ui
 
-import android.arch.lifecycle.ViewModelProviders
+import androidx.lifecycle.ViewModelProviders
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
-import android.support.v7.app.AlertDialog
+import androidx.appcompat.app.AlertDialog
 import android.view.MenuItem
 import com.github.rezalotfi01.bwallet.BuildConfig
 import com.github.rezalotfi01.bwallet.R

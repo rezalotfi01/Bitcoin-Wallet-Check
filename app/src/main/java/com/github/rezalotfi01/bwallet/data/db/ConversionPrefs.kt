@@ -1,7 +1,7 @@
 package com.github.rezalotfi01.bwallet.data.db
 
 import android.app.Application
-import android.arch.lifecycle.LiveData
+import androidx.lifecycle.LiveData
 import android.content.SharedPreferences
 import android.preference.PreferenceManager
 import com.github.rezalotfi01.bwallet.data.model.CryptocurrencyInfo

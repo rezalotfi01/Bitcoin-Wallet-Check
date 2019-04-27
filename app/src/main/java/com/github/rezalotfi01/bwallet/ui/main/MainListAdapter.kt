@@ -1,16 +1,16 @@
 package com.github.rezalotfi01.bwallet.ui.main
 
 import android.content.Context
-import android.support.transition.Fade
-import android.support.transition.Slide
-import android.support.transition.TransitionSet
-import android.support.v7.app.AppCompatActivity
-import android.support.v7.recyclerview.extensions.ListAdapter
-import android.support.v7.util.DiffUtil
-import android.support.v7.view.menu.MenuBuilder
-import android.support.v7.view.menu.MenuPopupHelper
-import android.support.v7.widget.PopupMenu
-import android.support.v7.widget.RecyclerView
+import androidx.transition.Fade
+import androidx.transition.Slide
+import androidx.transition.TransitionSet
+import androidx.appcompat.app.AppCompatActivity
+import androidx.recyclerview.widget.ListAdapter
+import androidx.recyclerview.widget.DiffUtil
+import androidx.appcompat.view.menu.MenuBuilder
+import androidx.appcompat.view.menu.MenuPopupHelper
+import androidx.appcompat.widget.PopupMenu
+import androidx.recyclerview.widget.RecyclerView
 import android.view.View
 import android.view.ViewGroup
 import com.github.rezalotfi01.bwallet.R

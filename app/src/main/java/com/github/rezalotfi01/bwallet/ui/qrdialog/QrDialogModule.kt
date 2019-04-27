@@ -1,6 +1,6 @@
 package com.github.rezalotfi01.bwallet.ui.qrdialog
 
-import android.arch.lifecycle.ViewModel
+import androidx.lifecycle.ViewModel
 import com.github.rezalotfi01.bwallet.di.ViewModelKey
 import dagger.Binds
 import dagger.Module
