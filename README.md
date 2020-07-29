@@ -1,6 +1,6 @@
 # B Wallet - MVVM Bitcoin Wallet Check !
 
-B Wallet allows you to check balance an history of any bitcoin wallet. Just scan bitcoin address QR code to see all important information like bitcoin balance, fiat balance by current conversation rate, transactions history, etc. All scanned wallets are safely stored on your phone for offline access. You can sort wallets in the favorites list.
+This is part of my complete Bitcoin Wallet project that allows you to check balance an history of any bitcoin wallet. Just scan bitcoin address QR code to see all important information like bitcoin balance, fiat balance by current conversation rate, transactions history, etc. All scanned wallets are safely stored on your phone for offline access. You can sort wallets in the favorites list.
 
 ![Screenshots](https://github.com/rezalotfi01/bitcoin-wallet/raw/master/screenshots/screenshot.png)
 
